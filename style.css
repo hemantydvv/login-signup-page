@@ -1,0 +1,101 @@
+/* === General Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* === Page Background === */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+/* === Form Container === */
+.form {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 580px;
+  text-align: center;
+}
+
+/* === Heading === */
+.form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* === Input Fields === */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-control:focus {
+  border-color: #6e8efb;
+  box-shadow: 0 0 6px rgba(110, 142, 251, 0.3);
+}
+
+/* === Button === */
+.btn {
+  width: 100%;
+  background: #6e8efb;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #5b73e8;
+  transform: translateY(-2px);
+}
+
+/* === Message and Links === */
+.msg {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+p a {
+  color: #6e8efb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+.btn .mt-3{
+position: relative;
+    top: 27px;
+}
