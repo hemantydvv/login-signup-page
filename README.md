@@ -5,4 +5,4 @@ The system supports two user roles: Admin and User, each gaining access to diffe
 A robust session management system ensures that only authenticated users can access the dashboard, and all sensitive pages are protected. The database connection uses environment-based variables, improving security and making the application adaptable for both local and hosted deployments.
 
 This project is fully deployed on a live hosting environment, showcasing seamless integration of backend logic, UI components, and real-world deployment practices. Perfect as a foundation for larger systems requiring authentication, authorization, and user management.
-here is the working link of this website  http://loginsignup.free.nf
+here is the working link of this website  (http://loginsign-up.free.nf/)
